@@ -1,0 +1,478 @@
+.up-header {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  margin-top: 10px;
+  
+}
+
+.nav{
+  position: fixed;
+  background-color: white;
+}
+
+.location-text {
+  font-style: normal;
+  font-weight: 400;
+  color: #202124;
+  font-family: "National 2 Regular";
+  margin-left: 11px;
+  font-size: 16px;
+}
+
+.location-btn {
+  color: white;
+  background-color: #202124;
+  border-radius: 17px;
+  width: 99px;
+  height: 32px;
+  font-weight: 600;
+  margin-left: 23px;
+  font-size: 12px;
+  font-family: "National2-Medium";
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.hr {
+  color: lightgrey;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 101px;
+  width: 50%;
+}
+
+.left-nav-btn {
+  text-decoration: none;
+  margin-left: 50px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.left-nav-all {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 101px;
+  width: 50%;
+  float: right;
+  margin-top: -101px;
+}
+
+.right-nav-all {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+}
+
+.kfc-logo {
+  cursor: pointer;
+}
+
+.right-nav-img {
+  width: 3%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.bucket-icon {
+  width: 6%;
+  margin-right: 176px;
+  cursor: pointer;
+}
+
+.right-text {
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.under-header {
+  background-color: #282b2e;
+  width: 102%;
+  height: 70px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.empty{
+  width: 102%;
+  height: 170px;
+  background-color: white;
+}
+
+.under-all {
+  display: flex;
+  align-content: center;
+  height: 57px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: system-ui;
+}
+.under-btn {
+  background-color: #e4002b;
+  color: white;
+  border-radius: 25px;
+  width: 153px;
+  height: 47px;
+  margin-left: 17px;
+  font-size: 16px;
+  font-family: "National2-Medium";
+  font-style: normal;
+  border-style: none;
+}
+.under-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+.stripes {
+  width: 40px;
+  height: 20px;
+  background: repeating-linear-gradient(
+    90deg,
+    #e4002b,
+    #e4002b 8px,
+    #fff 0,
+    #fff 16px
+  );
+  margin-left: 192px;
+  margin-top: -100px;
+}
+
+.down-banner {
+  display: flex;
+  background-color: #f8f7f5;
+  height: 120px;
+  margin-top: -4px;
+  align-content: center;
+  align-items: center;
+  width: 102%;
+}
+.wlcm-text {
+  font-family: system-ui;
+  font-weight: 900;
+  font-size: 33px;
+  margin-left: -40px;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.cate-text {
+  display: flex;
+  font-family: system-ui;
+  font-weight: 900;
+  font-size: 33px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-right: 66px;
+}
+.browse-line {
+  width: 550px;
+  height: 0px;
+  margin-left: 40px;
+  opacity: 50%;
+}
+
+.menu-text {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #2a2a2a;
+  margin-top: 16px;
+  font-family: fantasy;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.menu-cards {
+  display: flex;
+  height: 185px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.manu-card-img {
+  display: flex;
+  margin-left: 30px;
+  justify-content: center;
+}
+.menu-all {
+  display: flex;
+  margin-left: 200px;
+}
+
+.card-link {
+    text-decoration: none;
+    height: 230px;
+    background-color: #f0f0f0;  
+}
+
+.down-menu{
+  display: flex;
+  background-color: #202124;
+  height: 255px;
+  width: 102%;
+  margin-top: 100px;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bar-svg{
+  margin-left: 170px;
+}
+.down-menu-text{
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+.view-text{
+  text-decoration: none;
+    color: white;
+
+    margin-left: 780px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+.down-textt {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+  align-content: center;
+  margin-left: -81px;
+}
+
+.textt {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-menu-cards{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-cards{
+  display: flex;
+}
+
+.img-card{
+  height: 231px;
+}
+
+.all-down-cards{
+  background-color: #202124;
+  height: 450px;
+  width: 102%;
+}
+.d-cards-img{
+  height: 435px;
+  background: white;
+  margin-left: 84px;
+}
+.card-main-text{
+  color: #e4002b;color: #e4002b;
+  font-family: fantasy;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-sub-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.d-card-link{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  color: #575757;
+  margin-left: 18px;
+  margin-right: 207px;
+}
+.d-card-btn{
+  margin-top: -26px;
+  float: right;
+  background-color: white;
+  border-radius: 18px;
+  height: 35px;
+  width: 95px;
+  border-width: thin;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.d-card-btn:hover{
+  background-color: #202124;
+  color: white;
+  font-weight: bold;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 102%;
+  height: 270px;
+  background-color: #202124;
+  padding-top: 10%;  
+}
+
+.kfc-food{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  float: left;
+  margin-right: 40px;
+}
+
+.support{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 2%;
+  font-size: 13px;
+  font-weight: 500;
+  float: left;
+  margin-right: 40px;
+}
+
+.legal{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 2%;
+  font-size: 13px;
+  font-weight: 500;
+  float: left;
+  margin-right: 40px;
+}
+
+.kfc-india{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 2%;
+  font-size: 13px;
+  font-weight: 500;
+  float: left;
+  margin-right: 40px;
+}
+
+.kfc-logo-footer{
+  margin-left: 9%;
+  margin-top: 1%;
+}
+.footer-textt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  margin-left: 245px;
+  margin-top: -75px;
+}
+.googleplay{
+  width: 100px;
+  height: 100px;
+  margin-left: 1030px;
+  margin-top: -250px;
+}
+
+.applestore{
+  width: 100px;
+  height: 100px;
+  margin-left: 1200px;
+  margin-top: -100px;
+}
+
+.location{
+  width: 50px;
+  height: 50px;
+  margin-left: 830px;
+  margin-top: -75px;
+
+}
+.lnk{
+  width: 20px;
+  margin-left: 854px;
+  font-size: 10px;
+  margin-top: -200px;
+  color: white;
+}
+.link-kfc{
+  margin-top: -53px;
+}
+
+.end-footer{
+  background-color: #202124;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.end-text{
+  font-size: 12px;
+  text-align: center;
+  opacity: .9;
+  line-height: 12px;
+  color: #dbdbdb;
+  font-family: monospace;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+.l-end{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 218px;
+  
+  
+}
+.end-icons{
+  margin-top: -35px;
+  margin-left: 210px;
+}
